@@ -87,3 +87,6 @@ Optimize Performance: Regularly review and optimize data processing and transfor
 
 ## **Conclusion**
 This project, named Comprehensive Azure Data Pipeline for Retail Analytics, demonstrates the integration of multiple Azure services to create a scalable and secure data pipeline. It highlights the importance of data processing layers, effective orchestration, advanced analytics, and robust security measures to efficiently manage and analyze retail data.
+
+## **References**
+I would like to thank him for explaining in such a detialed way: https://www.youtube.com/watch?v=iQ41WqhHglk&t=9050s

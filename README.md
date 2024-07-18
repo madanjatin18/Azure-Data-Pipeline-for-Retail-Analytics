@@ -45,29 +45,36 @@ Provision Azure Services: Set up Azure Data Factory, Azure Data Lake Gen2, Azure
 
 Establish Security: Configure Azure Active Directory for user authentication and Azure Key Vault for secure management of keys and secrets.
 
+![](./Screenshots/Containers.png)
+
 ### 2. Data Ingestion:
 Data Movement with ADF: Use Azure Data Factory to create pipelines that extract data from the on-premises SQL Server and load it into the Bronze layer of Azure Data Lake Gen2.
 
-![](./Screenshots/ADF Pipeline.png)
+![](./Screenshots/ADF_Pipeline.png)
 
 ### 3. Data Processing and Transformation:
 Bronze to Silver Transformation: Use Azure Databricks to clean and transform the raw data stored in the Bronze layer, and store the processed data in the Silver layer.
 
 Silver to Gold Transformation: Further process and aggregate the data in Azure Databricks, then store the enriched data in the Gold layer.
 
+![](./Screenshots/GoldDeltaFile.png)
+
 ### 4. Data Analytics and Reporting:
 Data Warehousing: Load the data from the Gold layer into Azure Synapse Analytics for advanced analytics and querying.
+
+![](./Screenshots/Gold_DB.png)
 
 Data Visualization: Connect Power BI to Azure Synapse Analytics to create interactive dashboards and reports, providing actionable insights.
 
 ![](./Screenshots/SynapseSQL.png)
+
 
 ### 5. Security and Governance:
 Access Management: Ensure data access is securely managed through Azure Active Directory.
 
 Secret Management: Use Azure Key Vault to manage sensitive information such as connection strings and API keys.
 
-![](./Screenshots/Resource Group.png)
+![](./Screenshots/ResourceGroup.png)
 
 ### 6. Monitoring and Maintenance:
 Monitor Pipelines: Use Azure Data Factory monitoring tools to track the status and performance of data pipelines.
@@ -79,4 +86,4 @@ Optimize Performance: Regularly review and optimize data processing and transfor
 ![](./Screenshots/MetaData_Pipeline.png)
 
 ## **Conclusion**
-This project, named Comprehensive Azure Data Pipeline for Retail Analytics, demonstrates the integration of multiple Azure services to create a scalable and secure data pipeline. It highlights the importance of data processing layers, effective orchestration, advanced analytics, and robust security measures to manage and analyze retail data efficiently.
+This project, named Comprehensive Azure Data Pipeline for Retail Analytics, demonstrates the integration of multiple Azure services to create a scalable and secure data pipeline. It highlights the importance of data processing layers, effective orchestration, advanced analytics, and robust security measures to efficiently manage and analyze retail data.

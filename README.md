@@ -31,8 +31,11 @@ Security & Governance: Ensured using Azure Active Directory and Azure Key Vault 
 
 Retail Sales Dataset:
 Source: The dataset is sourced from an on-premises SQL Server database containing retail sales data.
+
 Content: It includes detailed information on sales transactions, product details, customer demographics, and store information.
-Volume: The dataset comprises millions of records, providing a comprehensive view of the retail operations.
+
+Volume: The dataset comprises millions of records, providing a comprehensive view of retail operations.
+
 Purpose: This dataset is used to perform data analytics to uncover trends, customer behavior, and sales performance, enabling data-driven decision-making.
 
 ## **Steps to Initialize and Complete the Project**

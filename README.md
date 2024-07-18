@@ -5,7 +5,7 @@ This project demonstrates the creation of a robust data pipeline using various A
 
 ## **Architecture Components**
 
-![](C:\Azure-Data-Pipeline-for-Retail-Analytics\Screenshots\Architecture.png)
+![](./Screenshots/Architecture.png)
 
 On-premises SQL Server Database: Acts as the source of the raw data.
 
